@@ -1,0 +1,94 @@
+Understanding Nested Lists in HTML
+ 
+This document covers a comprehensive review of HTML elements such as headings, paragraph, line breaks, horizontal rules, and lists. A special is given nested lists, including how create and use nth-level nesting. 
+
+comprehensive Overview 
+
+Topics covered in this Assignment include: 
+
+-Headings 
+-Paragraphs 
+-Line Breakes 
+-Horizontal Rules 
+-Unordered Lists 
+-Ordered Lists 
+-Definition List 
+-Nested Lists 
+
+HTML Elements Review 
+    
+    • HTML Basics 
+	• HTML Syntax 
+	• HTML Tags 
+	      ■ Opening and Closing Tags 
+	      ■ Self-Closing Tags 
+    • Text Formatting 
+	   • Headings 
+		■ Headings Levels 
+			Importance of Heading Hiearchy 
+			Usage from hl to h6 
+		■ Best Practices for Headings
+ 
+	   。 Paragraphs 
+	   。 Line Breaks 
+	   。 horizontal Ruls
+     •Lists
+  	   • Unordered Lists 
+	        ■ Basic Usage 
+		   ■ Using ul and li 	
+		   ■ Creating Nested Lists
+ 	• Ordered Lists
+	     • Basic Usage
+	     • Using ol and li
+	 。Defitation Listed		
+	       ■ Basic Usage 
+	          ■ Using dl, dt, dd  
+		  ■ Creating Nested Definations
+===================================================================================
+
+1. Setting Up Your Workspace 
+	 1. Choose a Text Editor 
+		 1. VSCode
+		 2. Notepad++
+		 3. Atom
+	 2. Create a New File
+
+2. Writting the HTML Document
+	1. Create the Basic Structure
+  		1. HTML Document Declaration.
+		2. Head Section
+		3. Body Section
+		     1. Adding Content
+			 1. Headings
+			 2. Paragraph
+			 3. Lists
+			     1. Unordered Lists	
+			     2. Ordered Lists
+ 			     3. Definations Lists
+ 
+ 3. Saving and Viewing Your Document 
+	1. Save the File with html Extension 
+	2. Open in a Web Browser 
+	3. Review for Accuracy 
+===================================================================================
+
+
+
+Multi-Level Nested Lists 
+
+
+
+Programming Languages Web Development Front-End .HTML ■ CSS ■ JavaScript Backend • Node.js ■ Python ■Ruby • Mobile Development ■ Android ■ IOS ■ Java Kotlin Swift • Objective-C 1. Project Planning 1. Intial Research 1. Market Analysis 2. Feasibility Study 2. Design Phase 1. User Interface Design 1. Wireframes 2. Prototypes 2. User Experience Design. 3. Development Phase 1. Frontend Development 1. HTML 2. CSS 3. JavaScript 2. Backend Development 1. Database Setup 2. Server Configuration 4. Testing and Deployment 1. Quality and Deployment 2. Production Deployment
+
+
+
+
+
+
+
+
+
+
+
+
+

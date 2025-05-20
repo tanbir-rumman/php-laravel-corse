@@ -1,0 +1,32 @@
+Nested List
+I. Background Skills 
+A. Unix Commands 
+B. Vim Test Editors 
+II. HTML 
+A. Minimal Page 
+B. Headings 
+C. Elements 
+D. Lists 
+i. Unordered 
+ii. Ordered 
+iii. Definition 
+iv. Nested 
+E. Links 
+i. Absolute 
+ii. Relative 
+III. CSS F. Images 
+A. Anatomy 
+B. Basic Selectors 
+i. Element 
+ii. Class 
+iii. ID 
+iv. Group 
+C. The DOM 
+D. Advanced Selectors 
+E. Box Model 
+IV. Programming 
+A. Python 
+B. JavaScript 
+V. Database 
+A. Flat File 
+B. Relational
