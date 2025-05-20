@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>class 28</title>
+    </head>
+    <body>
+        <div class="image-Size">
+            <img
+                src="images/cute-Duck.jpg"
+                srcset="
+                    images/cute-Duck-450.jpg   450w,
+                    images/cute-Duck-850.jpg   850w,
+                    images/cute-Duck-1500.jpg 1500w,
+                    images/cute-Duck-1900.jpg 1920w
+                "
+                sizes="(max-width: 450) 450px, 
+                (max-width: 850) 850px, 
+                (max-width: 1500) 1500px,
+                (max-width: 1900) 1920px"
+                alt="Duck"
+                width="500"
+            />
+        </div>
+    </body>
+</html>

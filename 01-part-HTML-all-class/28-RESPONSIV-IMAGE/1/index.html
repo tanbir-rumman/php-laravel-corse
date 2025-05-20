@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>class 28</title>
+    </head>
+    <body>
+        <div class="responsive-image">
+            <img
+                src="images/branches.jpg"
+                srcset="
+                    images/branches-450.jpg   450w,
+                    images/branches-850.jpg   850w,
+                    images/branches-1500.jpg 1500w,
+                    images/branches-1920.jpg 1920w,
+                    images/branches-2400.jpg 2400w
+                "
+                sizes="(max-width: 480) 450, 
+                (max-width: 850) 850, 
+                (max-width: 1500) 1500, 
+                (max-width: 1920) 120, 
+                (min-width: 2400) 2400"
+                width="500"
+                alt="branches-Bird"
+            />
+        </div>
+    </body>
+</html>

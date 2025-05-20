@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Class 27</title>
+    </head>
+    <body>
+        <div class="welcome-heading">
+            <h1>Welcome To My Learning Website</h1>
+        </div>
+
+        <div class="para">
+            <p> <strong>Explore HTML </strong> concepts through practical examples. 
+            HTML is fun and powerful for creating web pages. With a solid foundation in HTML, you can build amazing things. 
+            <br> 
+            <br> 
+            We cover various topics, including <mark>text formatting</mark>, lists, image maps, and tables. Each section focuses on essential skills you need to know, helping you become proficient in HTML. 
+            <br> 
+            <br> 
+            
+            Whether you are a beginner or looking to refine your skills, this site <del>will disappoint you</del> <u>will be an excellent resource.</u> Remember to practice consistently and explore new challenges.</p>
+        </div>
+            <h2>Image Map Example</h2>
+        <div class="image-area"> 
+            <div class="first-image">
+              <img src="images/branches.jpg" width="500" alt="Bird Image" usemap="#BirdOne">
+
+            <map name="BirdOne">
+                <area shape="poly" coords="240, 200, 200, 135, 215, 100, 240, 75, 295, 105, 315, 165, 320, 230, 255, 205" href="https://simple.wikipedia.org/wiki/Bird" alt="Bird Image" title="branches Bird" target="_blank"/>
+            
+                <area shape="poly" coords="60, 220, 150, 190, 180, 140, 195, 160, 180, 195, " href="https://en-m-wikipedia-org.translate.goog/wiki/Plant_stem?_x_tr_sl=en&_x_tr_tl=bn&_x_tr_hl=bn&_x_tr_pto=tc" alt="tree" title="Tree" target="_blank">
+              </map>
+              <div class="secend-image">
+                <img
+            src="images/desktopt_1.png"
+            alt="desktop"
+            usemap="#desktop"
+            width="500"
+            height="300"
+        />
+        <map name="desktop">
+            <area
+                shape="rect"
+                coords="190, 60, 350, 180"
+                href="https://en.wikipedia.org/wiki/Computer_monitor"
+                alt="Computer"
+                target="_blank"
+                title="desktop"
+            />
+            <area
+                shape="rect"
+                coords="340, 230, 375, 280"
+                href="https://en.wikipedia.org/wiki/Computer_mouse"
+                alt="Mouse Photos"
+                target="_blank"
+                title="Mouse"
+            />
+            <area
+                shape="rect"
+                coords="130, 190, 320, 250"
+                href="https://en.wikipedia.org/wiki/Computer_keyboard"
+                alt="Keybord"
+                target="_blank"
+                title="Keybord"
+            />
+            <area
+                shape="rect"
+                coords="30, 40, 90, 120"
+                href="https://en.wikipedia.org/wiki/Book"
+                alt="Book"
+                target="_blank"
+                title="Book"
+            />
+            <area
+                shape="rect"
+                coords="410, 15, 495, 150"
+                href="https://en.wikipedia.org/wiki/Wikipedia:Books"
+                alt="Book"
+                target="_blank"
+                title="Book"
+            />
+        </map>
+              </div>
+            </div>
+        </div>
+
+        <br>
+        <h2>Complex Table Example</h2>
+        <div class="table-1">
+            <table border="1">
+                <caption>
+                    Bio President Of America
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Cuntry Name</th>
+                        <th>Name</th>
+                        <th>Elected Date</th>
+                        <th>Born Cuntry Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>America</td>
+                        <td>Barak Obama</td>
+                        <td>2009</td>
+                        <td>Honululu Howai</td>
+                    </tr>
+                </tbody>
+                <tr>
+                    <td>America</td>
+                    <td>Donal Trump</td>
+                    <td>2019</td>
+                    <td>America</td>
+                </tr>
+                <tr>
+                    <td>America</td>
+                    <td>Jo Baiden</td>
+                    <td>2021</td>
+                    <td>America</td>
+                </tr>
+                <tfooter>
+                    <tr>
+                        <td>America</td>
+                        <td>Donal Trump</td>
+                        <td>2024</td>
+                        <td>America</td>
+                    </tr>
+                </tfooter>
+            </table>
+        </div>
+        <br />
+        <br />
+        <div class="table-2">
+            <table border="1">
+                <caption>
+                    A Test Table Marged And Cols
+                </caption>
+
+                <tr>
+                    <th rowspan="2">Gender</th>
+                    <th colspan="2">Avarege</th>
+
+                    <th rowspan="2">Red Eyes</th>
+                </tr>
+
+                <tr>
+                    <td>Height</td>
+                    <td>Wight</td>
+                </tr>
+                <tr>
+                    <td>Male</td>
+                    <td>1.9</td>
+                    <td>0.003</td>
+                    <td>40%</td>
+                </tr>
+                <tfooter>
+                    <tr>
+                        <td>Female</td>
+                        <td>1.7</td>
+                        <td>0.002</td>
+                        <td>43%</td>
+                    </tr>
+                </tfooter>
+            </table>
+        </div>
+        <br>
+        <div class="html-table">
+            <table border="1">
+            <caption>
+            Header Column
+            </caption>
+            <tr>
+            <th>Header Column 1</th>
+            <th>Header Column 2</th>
+            <th>Header Column 3</th>
+            <th>Header Column 4</th>
+        </tr>
+        <tr>
+          <td rowspan="2">Row 2 Item 1</td>
+          <td rowspan="2">Row 2 Item 2</td>
+          <td rowspan="7">
+            Row 2: Nested Table 1
+            <table border="1">
+              <tr>
+                <th>Row 1 Heder</th>
+                <td>Item</td>
+              </tr>
+              <tr>
+                <th>Row 2 Heder</th>
+                <td>Item</td>
+              </tr>
+              <tr>
+                <th>Row 2 Heder</th>
+                <td>Item</td>
+              </tr>
+            </table>
+          </td>
+          <td>Row 2 - Item 4 <br />A Secend Line</td>
+        </tr>
+        <tr>
+          <td rowspan="7">Row 3 - Item 3</td>
+        </tr>
+        <tr>
+          <th rowspan="3">Row 2: Nested Table 2</th>
+          <td rowspan="5">Row 3 Item 3</td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+          <td rowspan="2">
+            <table border="1">
+              <tr>
+                <th>Row 1 Heder</th>
+                <td>Item</td>
+              </tr>
+              <tr>
+                <th>Row 2 Heder</th>
+                <td>Item</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr></tr>
+        <tr>
+          <td>Row 4 - Item 1</td>
+          <td>Row 4 - Item 2</td>
+          <td>Row 4 - Item 3</td>
+        </tr>
+        <tr>
+          <td colspan="4">Row 5 - Last Row Of Outer Table</td>
+        </tr>
+        </table>
+    </body>
+</html>
