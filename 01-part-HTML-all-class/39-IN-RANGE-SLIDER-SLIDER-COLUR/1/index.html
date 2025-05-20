@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home</title>
+    </head>
+    <body>
+        <div>
+            <h1>Welcome to Our Website</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="pages/gallary.html">Gallery</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+                <li><a href="pages/form.html">Form</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Introduction</h2>
+            <p>
+                This is a <strong>demo website</strong> designed for students.
+                You can learn <em>HTML concepts </em> step by step. Important
+                notes are <mark>highlighted</mark>, and
+                <strong>key terms are emphasized</strong>. Some changes
+                <del>are removed</del> while others are <ins>inserted</ins>.
+            </p>
+            <div>
+                <h2>Topics Table</h2>
+                <table border="1">
+                    <tr>
+                        <th colspan="2">Topics Covered</th>
+
+                        <th>Additional Notes</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">HTML Basics</td>
+                        <td>Tags</td>
+                        <td rowspan="2">Core concepts</td>
+                    </tr>
+                    <tr>
+                        <td>Attributes</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Keep Practicing!</td>
+                    </tr>
+                </table>
+            </div>
+            <h2>Responsive Image</h2>
+        </div>
+        <div>
+            <picture>
+                <source
+                    srcset="images/progrming4.jpg"
+                    media="(max-width: 500px)"
+                />
+                <source
+                    srcset="images/programing3.jpg"
+                    media="(max-width: 800px)"
+                />
+                <source
+                    srcset="images/programing2.jpg"
+                    media="(max-width: 1500px)"
+                />
+                <img
+                    src="images/programing1.jpg"
+                    alt="programing pc"
+                    width="80%"
+                />
+            </picture>
+        </div>
+        <div>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Assignment Form</legend>
+                    <label for="u-name">Full Name:</label>
+                    <input
+                        type="text"
+                        name="user-name"
+                        id="u-name"
+                        placeholder="Enter Your Full Name"
+                    />
+                    <br />
+                    <label for="mail">Mail:</label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Enter Your Email"
+                        multiple
+                    />
+                    <br />
+                    <label for="url">Your Website:</label>
+                    <input
+                        type="url"
+                        name="url"
+                        id="url"
+                        placeholder="Enter your website"
+                    />
+                </fieldset>
+                <br />
+                <fieldset>
+                    <legend>Gender</legend>
+                    <input type="radio" name="gender" id="male" value="male" />
+                    <label for="male">Male</label>
+                    <br />
+                    <input
+                        type="radio"
+                        name="gender"
+                        id="female"
+                        value="female"
+                    />
+                    <label for="female">Female</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Select Your Interests:</legend>
+
+                    <input type="checkbox" name="qualification" id="HTML" />
+                    <label for="HTML">HTML</label>
+                    <br />
+                    <input type="checkbox" name="qualification" id="CSS" />
+                    <label for="CSS">CSS</label>
+
+                    <br />
+                    <label for="search">Your Message:</label>
+                    <input
+                        type="search"
+                        name="search"
+                        id="search"
+                        placeholder="Search or write your mes"
+                    />
+                </fieldset>
+
+                <button type="submit" id="submit" name="submit">submit</button>
+                <button type="reset" name="reset" id="reset">reset</button>
+            </form>
+        </div>
+    </body>
+</html>

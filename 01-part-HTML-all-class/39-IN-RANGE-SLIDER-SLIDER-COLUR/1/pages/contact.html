@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+  </head>
+  <body>
+    <div>
+      <h1>Contact Us</h1>
+    </div>
+    <div>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About </a></li>
+        <li><a href="gallary.html">Gallery</a></li>
+        <li><a href="form.html">Form</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Get in Touch</h2>
+      <p>
+        Feel free to reach out to us for any queries or support. We are here to
+        assist you with <strong>HTML learning</strong>,
+        <mark>programming challenges</mark>, and more.
+      </p>
+      <h2>Responsive Image</h2>
+    </div>
+    <div>
+      <picture>
+        <source srcset="../images/progrming4.jpg" media="(max-width: 500px)" />
+        <source srcset="../images/programing3.jpg" media="(max-width: 900px)" />
+        <source srcset="../images/program.jpg" media="(max-width: 1500px)" />
+        <img src="../images/programing1.jpg" alt="programing" width="70%" />
+      </picture>
+    </div>
+    <div>
+      <form action="#" method="post">
+        <fieldset>
+          <legend><h3>Assignment Form</h3></legend>
+          <div>
+            <fieldset>
+              <legend>User Deteils</legend>
+              <label for="name">Your Name</label>
+              <input
+                type="text"
+                name="user-name"
+                id="name"
+                placeholder="Enter Your Name"
+              />
+              <br />
+              <label for="meil">Email Address</label>
+              <input
+                type="email"
+                name="meil"
+                id="meil"
+                placeholder="Enter Valid Email"
+              />
+            </fieldset>
+            <fieldset>
+              <legend>Reason for Contact</legend>
+              <input
+                type="radio"
+                name="Feedback"
+                id="Feedback"
+                value="Feedback"
+              />
+              <label for="Feedback">Feedback</label>
+              <br />
+              <input
+                type="radio"
+                name="Feedback"
+                id="Support"
+                value="Support"
+              />
+              <label for="Support">Support</label>
+            </fieldset>
+            <fieldset>
+              <legend>Contact Preferences</legend>
+              <input type="checkbox" name="check" id="check" value="Email" />
+              <label for="check">Email</label>
+              <br />
+              <input type="checkbox" name="Phone" id="Phone" value="Phone" />
+              <label for="Phone">Phone</label>
+            </fieldset>
+            <button type="submit" id="submit" name="submit">submit</button>
+            <button type="reset" name="reset" id="reset">reset</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

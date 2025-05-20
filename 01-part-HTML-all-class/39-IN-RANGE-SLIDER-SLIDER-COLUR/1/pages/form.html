@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div>
+      <h1>HTML Forms</h1>
+    </div>
+    <div>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About </a></li>
+        <li><a href="gallary.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Form Demonstration</h2>
+      <p>
+        Learn to use <b>text inputs</b>, <em>checkboxes</em>, radio buttons, and
+        more with this form example.
+      </p>
+    </div>
+    <div>
+      <h2>Responsive Image</h2>
+      <div>
+        <picture>
+          <source srcset="../images/program.jpg" media="(max-width: 500px)" />
+          <source
+            srcset="../images/programing3.jpg"
+            media="(max-width: 900px)"
+          />
+          <source
+            srcset="../images/progrming4.jpg"
+            media="(max-width: 1500px)"
+          />
+          <img src="../images/programing1.jpg" alt="programing1" width="70%" />
+        </picture>
+      </div>
+    </div>
+    <div>
+      <form action="#" method="post">
+        <fieldset>
+          <legend><h3>Assignment Form</h3></legend>
+          <fieldset>
+            <legend>User Deteils</legend>
+            <div>
+              <label for="Fname">Username</label>
+              <input
+                type="text"
+                name="f-name"
+                id="Fname"
+                placeholder="Enter Your Username"
+              />
+              <br />
+            </div>
+
+            <div>
+              <label for="password">password</label>
+              <input
+                type="text"
+                name="password"
+                id="password"
+                placeholder="password"
+              />
+            </div>
+          </fieldset>
+          <div>
+            <fieldset>
+              <legend>Gender</legend>
+              <input type="radio" name="gender" id="male" value="Male" />
+              <label for="male">Male</label>
+              <br />
+              <input type="radio" name="gender" id="female" value="female" />
+              <label for="female">Female</label>
+            </fieldset>
+            <fieldset>
+              <legend>Select Your Interests:</legend>
+              <input
+                type="checkbox"
+                name="qualification"
+                id="HTML"
+                value="HTML"
+              />
+              <label for="HTML">HTML</label>
+              <br />
+              <input
+                type="checkbox"
+                name="qualification"
+                id="CSS"
+                value="CSS"
+              />
+              <label for="CSS">CSS</label>
+            </fieldset>
+          </div>
+
+          <button type="submit" id="submit" name="submit">submit</button>
+          <button type="reset" name="reset" id="reset">reset</button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

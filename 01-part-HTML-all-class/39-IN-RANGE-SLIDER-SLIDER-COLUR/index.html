@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home</title>
+    </head>
+    <body>
+        <div>
+            <h1>Welcome to Our Website</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="pages/gallary.html">Gallery</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+                <li><a href="pages/form.html">Form</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Introduction</h2>
+            <p>
+                This is a <strong>demo website</strong> designed for students.
+                You can learn <em>HTML concepts </em> step by step. Important
+                notes are <mark>highlighted</mark>, and
+                <strong>key terms are emphasized</strong>
+            </p>
+            <h2>Responsive Image</h2>
+        </div>
+        <div>
+            <picture>
+                <source
+                    srcset="images/progrming4.jpg"
+                    media="(max-width: 500px)"
+                />
+                <source
+                    srcset="images/programing3.jpg"
+                    media="(max-width: 800px)"
+                />
+                <source
+                    srcset="images/programing2.jpg"
+                    media="(max-width: 1500px)"
+                />
+                <img
+                    src="images/programing1.jpg"
+                    alt="programing pc"
+                    width="80%"
+                />
+            </picture>
+        </div>
+        <div>
+            <form action="#" method="post">
+                <h2>Form</h2>
+                <fieldset>
+                    <legend>Personal Info</legend>
+                    <label for="u-name">First Name:</label>
+                    <input
+                        type="text"
+                        name="user-name"
+                        id="u-name"
+                        placeholder="Enter Your First Name"
+                    />
+                    <br />
+                    <br />
+                    <label for="l-name">Last Name</label>
+                    <input type="text" name="last-name" id="l-name" />
+                </fieldset>
+
+                <fieldset>
+                    <legend>-Preferences-</legend>
+                    <label for="amount">Amount</label>
+                    <input
+                        type="number"
+                        name="amount"
+                        id="amount"
+                        max="100"
+                        min="5"
+                        value="1"
+                        step="5"
+                    />
+                    <!-- step="any" নামে এখানে একটি step এবং এর ভ্যালু রয়েছে -->
+
+                    <br />
+                    <br />
+                    <label for="slider">Price Range</label>
+                    <input
+                        type="range"
+                        name="slider"
+                        id="slider"
+                        max="1000"
+                        step="100"
+                    />
+                    <br />
+                    <br />
+                    <label for="color">Favorite Color</label>
+                    <input type="color" name="color" id="color" />
+                    <br />
+                    <br />
+                    <button type="submit" id="submit" name="submit">
+                        submit
+                    </button>
+                    <button type="reset" name="reset" id="reset">reset</button>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=   " />
+        <title>about</title>
+    </head>
+    <body>
+        <div>
+            <h1>About Us</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="gallary.html">Gallery</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Our Mission</h2>
+            <p>
+                We aim to provide high-quality tutorials for aspiring
+                <strong>web developers</strong>. We emphasize
+                <mark>practice-based learning</mark> to help you
+                <em>master core concepts</em>.
+            </p>
+            <h2>Responsive Image</h2>
+        </div>
+        <div>
+            <picture>
+                <source
+                    srcset="../images/progrming4.jpg"
+                    media="(max-width: 500px)"
+                />
+                <source
+                    srcset="../images/programing2.jpg"
+                    media="(max-width: 900px)"
+                />
+                <source
+                    srcset="../images/programing1.jpg"
+                    media="(max-width: 1500px)"
+                />
+                <img
+                    src="../images/programing3.jpg"
+                    alt="programing"
+                    width="70%"
+                />
+            </picture>
+        </div>
+        <div>
+            <h2>Form Assignment</h2>
+            <form action="#">
+                <fieldset>
+                    <legend>Form Assignment</legend>
+                    <label for="Fname">Full Name</label>
+                    <input
+                        type="text"
+                        name="fname"
+                        id="Fname"
+                        placeholder="Your Full Name"
+                    />
+                    <br />
+                    <label for="email">Email Address: </label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        multiple
+                    />
+                    <br />
+                    <label for="tel">Phone Number:</label>
+                    <input
+                        type="tel"
+                        id="tel"
+                        value="tel"
+                        placeholder="Enter your phone number"
+                    />
+                </fieldset>
+                <fieldset>
+                    <legend>Preferred Learning Style:</legend>
+
+                    <input type="radio" name="On" id="Visual" value="Visual" />
+
+                    <label for="Visual">Visual</label>
+                    <br />
+                    <input type="radio" name="On" id="On" value="Hands-On" />
+                    <label for="On">Hands-On</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Topics of Interest:</legend>
+                    <input type="checkbox" id="JavaScript" value="JavaScript" />
+                    <label for="JavaScript">JavaScript</label>
+                    <br />
+                    <input type="checkbox" id="PHP" value="PHP" />
+                    <label for="PHP">PHP</label>
+                    <br />
+                    <textarea
+                        name="comments"
+                        id="comments"
+                        placeholder="comments"
+                    ></textarea>
+                </fieldset>
+                <input
+                    type="submit"
+                    name="submit"
+                    id="sign-up"
+                    value="sign-up"
+                />
+                <button type="reset" name="reset" id="reset">reset</button>
+            </form>
+        </div>
+    </body>
+</html>

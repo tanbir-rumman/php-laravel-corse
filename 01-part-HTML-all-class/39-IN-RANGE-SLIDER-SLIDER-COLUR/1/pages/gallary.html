@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>gallary</title>
+    </head>
+    <body>
+        <div>
+            <h1>Gallery</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="about.html">about</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Featured Images</h2>
+        </div>
+        <div>
+            <picture>
+                <source
+                    srcset="../images/programing3.jpg"
+                    media="(max-width: 500px)"
+                />
+                <source
+                    srcset="../images/programing1.jpg"
+                    media="(max-width: 900px)"
+                />
+                <source
+                    srcset="../images/program.jpg"
+                    media="(max-width: 1500px)"
+                />
+                <img
+                    src="../images/progrming4.jpg"
+                    alt="programing"
+                    width="70%"
+                />
+            </picture>
+        </div>
+        <div>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Assignment Form</legend>
+                    <label for="Fname">Full Name</label>
+                    <input
+                        type="text"
+                        name="fname"
+                        id="Fname"
+                        placeholder="Your Full Name"
+                    />
+                    <br />
+                    <label for="email">Email Address: </label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        multiple
+                    />
+                    <br />
+                    <label for="url">Favorite Image ID:</label>
+                    <input
+                        type="url"
+                        name="url"
+                        id="url"
+                        placeholder="Enter image ID or URL"
+                    />
+                    <br />
+                </fieldset>
+                <fieldset>
+                    <legend>Image Type:</legend>
+                    <input
+                        type="radio"
+                        name="type"
+                        id="Landscape"
+                        value="Landscape"
+                    />
+                    <label for="Landscape">Landscape</label>
+                    <br />
+                    <input
+                        type="radio"
+                        name="type"
+                        id="Portrait"
+                        value="Portrait"
+                    />
+                    <label for="Portrait"> Portrait</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Choose Tags:</legend>
+                    <input
+                        type="checkbox"
+                        name="Select-categories"
+                        id="categories"
+                        value="Nature"
+                    />
+                    <label for="categories">Nature</label>
+                    <br />
+                    <input
+                        type="checkbox"
+                        name="Select-categories"
+                        id="urban"
+                        value="urban"
+                    />
+                    <label for="urban">Urban</label>
+                </fieldset>
+                <label for="search">Search for Images:</label>
+                <input
+                    type="search"
+                    name="search"
+                    id="search"
+                    placeholder="Search images"
+                />
+                <br />
+                <button type="submit" id="submit" name="submit">submit</button>
+                <button type="reset" name="reset" id="reset">reset</button>
+            </form>
+        </div>
+    </body>
+</html>
