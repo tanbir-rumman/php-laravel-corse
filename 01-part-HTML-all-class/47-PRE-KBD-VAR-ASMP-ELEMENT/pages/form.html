@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div>
+      <h1>Welcome to Our Website</h1>
+    </div>
+    <div>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About </a></li>
+        <li><a href="gallary.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Introduction</h2>
+      <p>
+        <strong>This is a practice</strong> <mark>assignment</mark>
+        <em>covering</em> <u>all HTML </u><del>topics</del> <ins>taught</ins> so
+        far.
+      </p>
+    </div>
+    <div>
+      <h2>Responsive Image</h2>
+      <div>
+        <picture>
+          <source srcset="../images/program.jpg" media="(max-width: 500px)" />
+          <source
+            srcset="../images/programing1.jpg"
+            media="(max-width: 900px)"
+          />
+          <source
+            srcset="../images/programing3.webp"
+            media="(max-width: 1500px)"
+          />
+          <img src="../images/programing2.webp" alt="programing" width="100%" />
+        </picture>
+      </div>
+    </div>
+    <div>
+      <h2>Form</h2>
+      <form action="#" method="post">
+        <feldset>
+          <legend>Personal Information</legend>
+          <label for="">Full Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your full name"
+          />
+          <br />
+          <br />
+          <label for="meil"> Email*</label>
+          <input
+            type="email"
+            id="meil"
+            name="mail"
+            placeholder=" Enter your email"
+          />
+          <br />
+          <br />
+          <label for="date">Date of Birth:</label>
+          <input
+            type="datetime-local"
+            id="date"
+            name="date"
+            min="2025-02-01T23:59"
+            max="2025-02-07T23:59"
+          />
+          <br />
+          <br />
+          <label for="month">Month Picker:</label>
+          <input type="month" id="month" name="month" />
+          <br />
+          <br />
+          <label for="week">Preferred Week:</label>
+          <input type="week" id="week" name="week" />
+          <br />
+          <br />
+          <label for="time">Time Picker:</label>
+          <input type="time" id="time" name="time" />
+          <br />
+          <br />
+
+          <label for="color">Favorite Color:</label>
+          <input type="color" id="color" name="color" />
+          <br />
+          <br />
+          <label for="phone">Phone Number:</label>
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            maxlength="10"
+            placeholder=" Enter 11-digit phone number"
+          />
+          <br />
+          <br />
+          <label for="url">Persional Website:</label>
+          <input
+            type="url"
+            name="url"
+            id="url"
+            placeholder=" Enter your website URL"
+          />
+          <br />
+          <br />
+          <label for="range">Select Your Budget:</label>
+          <input type="range" name="range" id="range" value="80" />
+          <br />
+          <br />
+          Gender:
+
+          <input type="radio" name="gender" id="male" />
+          <label for="male">Male</label>
+
+          <input type="radio" name="gender" id="female" />
+          <label for="female">Female</label>
+          <br />
+          <br />
+          Agree to Terms:
+          <input type="checkbox" name="agree" id="agree" />
+          <label for="agree">Yes</label>
+          <br />
+          <br />
+          <label for="sms">Your Comments:</label>
+          <textarea
+            name="sms"
+            id="sms"
+            placeholder="Write your comments..."
+          ></textarea>
+          <br />
+          <br />
+          <label for="completion">Completion Progress:</label>
+          <progress id="completion" max="100" value="80">100/80</progress>
+          <br />
+          <br />
+          <label for="Satisfaction">Satisfaction Meter:</label>
+          <meter
+            id="Satisfaction"
+            value="70"
+            max="100"
+            min="0"
+            high="80"
+            low="15"
+          >
+            70
+          </meter>
+        </feldset>
+        <br />
+        <br />
+        <button type="submit" id="submit" name="submit">submit</button>
+        <button type="reset" name="reset">reset</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>52-class</title>
+  </head>
+  <body>
+    <header>
+      <div class="headar-one">
+        <h1>Welcome to My Website</h1>
+      </div>
+      <nav>
+        <div class="nav-area" id="top">
+          <ul>
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/gallary.html">Gallery</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+            <li><a href="pages/form.html">Form</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="intro-one">
+        <h2>Introduction</h2>
+      </div>
+      <p>
+        This is the <mark>home page</mark> of the assignment. It uses
+        <strong>all HTML topics</strong> taught so far.
+        <br />
+        <br />
+        Here's a
+        <br />
+        line break and an horizontal rule below:
+      </p>
+      <hr />
+    </header>
+
+    <main class="main-area">
+      <div class="intro">
+        <h3>Quick Links</h3>
+      </div>
+      <div class="jump-area">
+        <p>Jump to: <a href="#bottom">Bottom of Page</a></p>
+        <p>
+          External Links: <a href="#">Google</a> |
+          <a href="#">Flipcart</a>
+        </p>
+      </div>
+      <div class="list-area">
+        <h2>Lists Demo</h2>
+        <div class="ul-area">
+          <ul>
+            <li>Unordered Item 1</li>
+            <li>
+              Unordered Item 2
+              <ol>
+                <li>Nested Ordered Item 1</li>
+                <li>Nested Ordered Item 2</li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+
+        <div class="dl-area">
+          <dl>
+            <dt>HTML</dt>
+            <dd>Hypertext Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+          </dl>
+        </div>
+      </div>
+    </main>
+
+    <content class="content-1">
+      <div class="image-area">
+        <div class="image-heading">
+          <h2>Image & Video Demo</h2>
+        </div>
+
+        <picture>
+          <img
+            src="https://picsum.photos/200/300"
+            alt="picsum photos"
+            height="200px"
+            width="300px"
+          />
+          <figcaption>Image from Picsum</figcaption>
+        </picture>
+      </div>
+    </content>
+
+    <content class="content-2">
+      <div class="video-area">
+        <video
+          controls
+          loop
+          preload="none"
+          width="300px"
+          poster="image/Screenshot_1.png"
+        >
+          <source src="video/video1.mp4" type="video/mp4" />
+          <source src="video/video1.webm" type="video/webm" />
+          <source src="video/video1.ogg" type="video/ogg" />
+          <p>video not suported</p>
+        </video>
+
+        <video
+          controls
+          loop
+          preload="none"
+          width="300px"
+          poster="image/Screenshot_2.png"
+        >
+          <source src="video/video-2.mp4" type="video/mp4" />
+          <source src="video/video-2.webm" type="video/webm" />
+          <source src="video/video-2.ogg" type="video/webm" />
+          <p>video not suported</p>
+        </video>
+        <figcaption>Sample Video</figcaption>
+      </div>
+    </content>
+    <content class="content-3">
+      <div class="cod-area">
+        <div class="text-formate">
+          <h3>Text Formating</h3>
+        </div>
+        <div class="sampol">
+          <p>
+            This is<strong> bold</strong>, <em>italic</em>,
+            <strong>important</strong>, and <em>emphasized</em> text.
+            <br />
+            <del>Old text</del> replaced with <ins>new text</ins>.
+            H<sub>2</sub>O and x<sup>2</sup>.
+            <br />
+          </p>
+          <small> Small text here.</small>
+        </div>
+        <div class="code">
+          <h3>Code Example</h3>
+          <br />
+          <p><samp>This is a paragraph</samp></p>
+          <br />
+        </div>
+        <p>
+          Press <kbd>Ctrl + S</kbd> to save. Variable : x. Output:
+          <samp>Hello</samp>.
+        </p>
+        <div class="table-area">
+          <h3>Table Demo</h3>
+          <div class="table">
+            <table border="1">
+              <tr>
+                <th>Name</th>
+                <th colspan="2">Details</th>
+              </tr>
+              <tr>
+                <td>John</td>
+                <td>Age: 25</td>
+                <td>City: NY</td>
+              </tr>
+              <tr>
+                <td colspan="3">End of Table</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </content>
+    <aside>
+      <div class="aside-content">
+        <div class="heading">
+          <h3>Aside Content</h3>
+        </div>
+        <div class="backqot">
+          <p>This is a <q>short quote</q> in an aside.</p>
+        </div>
+        <div id="bottom">
+          <p>&copy 2025 My Website | <a href="#top">Back to Top</a></p>
+        </div>
+      </div>
+    </aside>
+  </body>
+</html>

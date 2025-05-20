@@ -1,0 +1,11 @@
+Class 49 
+=======================================================
+Class 49  header - navbar - main - section - article - Footer - aside - html
+=======================================================
+
+header - navbar - main - section - article - Footer - aside কি হয় ? 
+
+উত্তরঃ header - navbar - main - section - article - Footer - aside  
+এগুলোর সব ই HTML ট্যাগ ,
+
+একটি ওয়েব পেজ সাজাতে পেজ এর ভিবিন্ন অংসে ব্যাবহার করা হয় এই ট্যাগ 

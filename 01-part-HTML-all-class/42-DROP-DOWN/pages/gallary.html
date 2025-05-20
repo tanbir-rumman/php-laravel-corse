@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=   " />
+    <title>Gallary</title>
+  </head>
+  <body>
+    <div>
+      <h1>Gallery</h1>
+    </div>
+    <div>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="form.html">Form</a></li>
+        <li><a href="gallary.html">Gallery</a></li>
+      </ul>
+    </div>
+    <h2>Gallery Form</h2>
+    <div>
+      <form action="#">
+        <fieldset>
+          <legend>Gallery Feedback</legend>
+          <label for="name">Username:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder=" Enter your username"
+          />
+          <br />
+          <br />
+          <label for="meil">Email</label>
+          <input
+            type="email"
+            name="meil"
+            id="meil"
+            placeholder=" Enter your email"
+          />
+          <br />
+          <br />
+          <fieldset>
+            <legend>Rate Our Gallery</legend>
+            <label for="Rating">Rating:</label>
+            <input type="range" id="Rating" name="Rating" value="Rating" />
+            <br />
+            <br />
+            <label for="Color">Favorite Color:</label>
+            <input type="color" name="color" id="Color" />
+            <br />
+            <br />
+          </fieldset>
+        </fieldset>
+
+        <fieldset>
+          <legend>Event Date & Time</legend>
+          <label for="datetime">Event Date & Time:</label>
+          <input type="datetime-local" name="datetime" id="datetime" />
+          <br />
+          <br />
+          <label for="datetime">Preferred Date:</label>
+          <input type="date" name="date" id="datetime" />
+          <br />
+          <br />
+        </fieldset>
+        <fieldset>
+          <legend>Options</legend>
+          <div>
+            <input
+              type="checkbox"
+              name="Subscribe"
+              id="Subscribe"
+              value="Subscribe"
+            />
+            <label for="Subscribe"> Receive Notifications</label>
+            <br />
+            <br />
+
+            <input type="radio" name="Option" id="Option-1" value="Option-1" />
+            <label for="Option-1">Option A</label>
+            <br />
+            <br />
+            <input type="radio" name="Option" id="Option-2" value="Option-2" />
+            <label for="Option-2">Option B</label>
+          </div>
+        </fieldset>
+        <input type="submit" name="submit" id="sign-up" value="sign-up" />
+        <button type="reset" name="reset" id="reset">reset</button>
+      </form>
+    </div>
+  </body>
+</html>

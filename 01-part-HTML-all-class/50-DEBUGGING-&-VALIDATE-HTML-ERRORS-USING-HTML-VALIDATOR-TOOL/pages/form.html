@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <header>
+      <div class="heading">
+        <h1 class="Welcome">Submit Your Details</h1>
+      </div>
+      <nav>
+        <div class="nav-area" id="top">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About </a></li>
+            <li><a href="gallary.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <content>
+      <div class="content-1">
+        <h2>Form Example</h2>
+        <div class="form-area">
+          <form action="#" method="post">
+            <div class="name">
+              <label for="name">Name:</label>
+              <br />
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter name"
+              />
+            </div>
+
+            <div class="mail">
+              <label for="mail">Email:</label>
+              <br />
+              <input
+                type="email"
+                name="mail"
+                id="mail"
+                placeholder="Enter email"
+                pattern=".com"
+              />
+            </div>
+
+            <div class="website">
+              <label for="url">Website:</label>
+              <br />
+              <input
+                type="url"
+                id="url"
+                name="website"
+                placeholder="https://example.com"
+              />
+            </div>
+
+            <label for="tel">Phone:</label>
+            <br />
+            <input
+              type="tel"
+              id="tel"
+              name="phone"
+              placeholder="1234567890s"
+              maxlength="11"
+            />
+
+            <div class="age">
+              <label for="age">Age:</label>
+              <br />
+              <input type="number" id="age" name="age" max="45" min="25" />
+            </div>
+
+            <div class="birth">
+              <label for="birth">Birth Date:</label>
+              <br />
+              <input
+                type="date"
+                id="birth"
+                name="Dob"
+                placeholder="dd-mm-yyyy"
+              />
+            </div>
+
+            <div class="even">
+              <label for="Event">Event Time:</label>
+              <br />
+              <input type="datetime-local" id="Event" name="Event" />
+            </div>
+
+            <div class="week">
+              <label for="week">Week:</label>
+              <br />
+              <input type="week" name="week" id="week" />
+            </div>
+
+            <div class="color">
+              <label for="color">Favorite Color:</label>
+              <br />
+              <input type="color" id="color" name="color" />
+            </div>
+
+            <div class="setisfaction">
+              <label for="progress">Satisfaction:</label>
+              <br />
+              <progress id="progress" max="100" value="50"></progress>
+            </div>
+            <label for="Gender">Gender:</label>
+            <br />
+
+            <div class="gender">
+              <input type="radio" name="gender" id="male" value="male" />
+              <label for="male">Male</label>
+              <br />
+
+              <input type="radio" name="gender" id="female" value="female" />
+              <label for="female">Female </label>
+            </div>
+            <div class="hobbis">
+              <label for="Hobbies">Hobbies:</label>
+              <br />
+              <input
+                type="checkbox"
+                name="Hobbies"
+                id="Hobbies"
+                value="Reading"
+              />
+              <label for="Hobbies">Reading</label>
+              <br />
+              <input type="checkbox" id="Gaming" name="Gaming" value="Gaming" />
+              <label for="Gaming">Gaming</label>
+            </div>
+
+            <div class="city">
+              <label for="City"> City:</label>
+              <br />
+              <input
+                list="city"
+                name="City"
+                id="City"
+                placeholder="Select Or Type"
+              />
+
+              <datalist id="city">
+                <option value="Dhaka"></option>
+                <option value="Cottogram"></option>
+                <option value="Khulna"></option>
+                <option value="Barisal"></option>
+                <option value="Rajsahi"></option>
+                <option value="Sylhet"></option>
+                <option value="Maymanshig"></option>
+                <option value="Rangpur"></option>
+              </datalist>
+            </div>
+            <div class="sms">
+              <label for="sms">Massege:</label>
+              <br />
+              <textarea
+                name="sms"
+                id="sms"
+                placeholder="This is readonly text."
+                cols="25"
+                rows="10"
+                readonly
+              ></textarea>
+            </div>
+            <div class="progress">
+              <label for="pro">Progress:</label>
+              <br />
+              <progress max="100" value="30" id="pro">100/50</progress>
+            </div>
+            <div class="meter">
+              <label for="meter">Meter:</label>
+              <br />
+              <meter
+                id="meter"
+                value="75"
+                max="100"
+                min="0"
+                high="80"
+                low="20"
+                optimum="75"
+              ></meter>
+            </div>
+            <div class="submet">
+              <button type="reset" id="reset" name="reset">Restet</button>
+              <br />
+              <input type="submit" name="submit" id="submit" value="Signup" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </content>
+    <div class="horaizental-line">
+      <hr />
+    </div>
+    <content>
+      <div class="content-2">
+        <h3>Form Image</h3>
+      </div>
+      <div class="img">
+        <picture>
+            <figure>
+              <img
+                src="https://picsum.photos/200/300"
+                alt="Lorem picsum"
+                width="300px"
+                height="300px"
+              />
+              <figcaption>Form Image</figcaption>
+            </figure>
+          </picture>
+      </div>
+
+      <div class="Form-Features">
+        <h3>Form Features</h3>
+      </div>
+
+      <div class="lists">
+        <div class="ul">
+          <ul>
+            <li>Required fields</li>
+            <li>Validation with pattern</li>
+          </ul>
+        </div>
+
+        <dl>
+          <dt>Form</dt>
+          <dd>User input collection</dd>
+        </dl>
+      </div>
+      <div class="qutation">
+        <p><q>Forms are essential for interaction.</q></p>
+      </div>
+      <div class="code-Example">
+        <h3>Code Example</h3>
+        <p>
+          <pre>
+            <code>
+              <input type="text">
+            </code>
+          </pre>
+        </p>
+      </div>
+      <div class="">
+        <p>Press 
+          <strong>Tab</strong> 
+          to move. Variable: 
+          <em><samp>input.</samp></em> 
+          Output: 
+          <samp><strong>Submitted.</strong>
+          </samp></p>
+      </div>
+    </content>
+    <bottom>
+      <p>&copy 2025 | <a href="#top">Go To Top</a></p>
+    </bottom>
+  </body>
+</html>
