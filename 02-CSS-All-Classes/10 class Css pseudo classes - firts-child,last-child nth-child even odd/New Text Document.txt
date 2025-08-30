@@ -1,0 +1,80 @@
+Class 10 
+Css pseudo classes - :firts-child,:last-child :nth-child even odd কি হয়?
+
+এই ক্লাসে আলচনা করা হয়েছে css এর মাধ্যমে eliment select করা 
+Html eliment select করতে+ এই css এর মধ্যে class , id , attribute ছারাও কিছু selector রয়েছে 
+তার নাম গুলো হলো :first-child, :last-child, :nth-child, 
+
+:first-child কি হয় ? 
+
+উত্তরঃ-  একটি একটি div এর মধ্যে যধি multyple content থাকে সেখান থেকে সেখানথেকে 
+সর্বপ্রথম যে content থাকে সেটিকে select করতেই ব্যাবহার করা হয় এই :first-child মাধ্যমে
+
+যেমন 
+
+.one:first-child{
+	Color: red;
+}
+এখানে বোঝানো হয়েছে one বলে div এর মধে যে first-chiled রয়েছে তাকে 
+এইবার এখানে যে কোনো css apply করা যাবে , 
+
+:last-child কি হয় ? 
+
+উত্তরঃ- একটি একটি div এর মধ্যে যধি multyple content থাকে সেখান থেকে সেখানথেকে 
+সর্বশেষ যে content থাকে সেটিকে select করতেই ব্যাবহার করা হয় এই last-child মাধ্যমে
+যেমন
+.one:last-child{
+	Color: red;
+}
+
+ এখানে বোঝানো হয়েছে one বলে div এর মধে যে last-chiled রয়েছে তাকে 
+এইবার এখানে যে কোনো css apply করা যাবে , 
+
+
+:nth-child(2) কি হয় ?
+
+
+উত্তরঃ-  একটি div এর মধ্যে যধি multyple content থাকে সেখান থেকে যে কোনো একটি content বা একাধিক content select করা যায় এই :nth-child() এর মাধ্যমে, 
+:nth-child লেখার পরে যে এই () ব্রাকেট রয়েছে এর মধ্যে সুধু লিখতে হবে যে আমি কত তম 
+Chaild কে select করতে চাই ব্যাস হয়ে যাবে
+
+যেমন 
+.one:nth-chile(3) {
+	Color: red;
+}
+ 
+ধরুন এই যে one বলে div এর মধ্যে পাঁচটা p tag রয়েছে সেখান থেকে তিন নাম্বার
+P tag টা আমি select করতে চাই 
+তো সেই P tag কত নাম্বারে রয়েছে সে নাম্বারটা ই বসাতে হবে এই ( ) ব্রাকেট এর মাঝে
+তখন সেই নাম্বারের contnet টা select হয়ে যাবে, 
+এবং এইবার এখানে যে কোনো css apply করা যাবে ,
+
+ even কি হয়
+
+ উত্তরঃ- even odd এটিও content selector তবে আগের সকল selector থেকে আলাদ
+
+ধরুন একটি div এর মধ্যে বিশটি content রয়েছে এর মধ্য থেকে আমাকে বলা হয়েছে সুধুমাত্র
+জোড়ার মেলে যেই content গুলোর সাথে সুধু সেগুলোকে select করো, 
+
+যেমন  2, 4, 6, 8, 10 ইত্যাদি,  
+
+এই যে even রয়েছে সেটির মাধ্যমে ই সেই সকল জোড়ার নাম্বার গুলো select করা যায়
+এইভাবে
+
+.one:nth-child(even) {
+	Color: red;
+}
+এখানে বোঝানো হয়েছে one বলে div এর মধ্যে যত গুলো জোড় eliment রয়েছে সেগুলোকে select করা
+
+
+odd কি হয়? 
+
+উত্তরঃ-  even যেভাবে কাজ করে odd তার উলো , 
+even select করে জোড়া সংখা , odd select করে বেজোড় সংখা 
+
+যেমন  
+.one:nth-child(odd) {
+	Color: blue;
+} 
+
+এখানে বোঝানো হয়েছে one বলে div এর মধ্যে যত গুলো বেজোড় eliment রয়েছে সেগুলোকে select করা

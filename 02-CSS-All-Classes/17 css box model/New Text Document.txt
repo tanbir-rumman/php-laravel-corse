@@ -1,0 +1,17 @@
+class 17 box model কি হয় ? 
+
+উত্তরঃ 
+box model হলো আমরা web page এ যে element গুলোর দিয়ে থাকি সেগুলোর প্রত্যেকটাকেই 
+ব্রাউজার একটি  করে box হিসেব করে 
+সেখানে margin থাকে padding থাকে content থাকে , আর এই সব গুলোর সমন্বয়ে গঠিত হয় একটি box model
+তবে এই  margin কিন্তু box model এর অন্তর্ভুক্ত নয় , এটি ব্যাবহার করা হয় সুধুমাত্র একটি content কে অন্য একটি 
+content থেকে দূরে রাখার জন্য 
+একটি content এর মধ্যে যেগুলো দেখা যায় বা একজন ইউজার দেখবে সেগুলোকে বলা হয় visible part
+
+একটি box সাধারনত চার কোন বিশিষ্ট হয়ে থাকে , যেমন  top, left, right, bottom 
+আমরা যখন একটি element তৈরি করি সেটির hight, থাকে  width থাকে 
+
+একটি বক্স এ সাধারণত  
+content, padding , border, এগুলো সব হলো inside element
+আর
+margin, হলো outside element

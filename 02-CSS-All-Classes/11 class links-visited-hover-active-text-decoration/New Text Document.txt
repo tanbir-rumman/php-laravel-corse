@@ -1,0 +1,26 @@
+class 11 
+CSS-links-link-visited-hover-active-text-decoration কি হয় ? 
+
+প্রতিটি ওয়েব পেজ এ অনেক রকম লিঙ্ক থাকে আর সেগুলোর মধ্যে অনেক রকম ষ্টেপ রয়েছে আর এই ষ্টেপ গুলো  
+ ব্যাবহার করার জন্য কিছু  pseudoclass ব্যাবহার করতে হয় 
+সেই pseudoclass গুলো follw করে সেই অনুযাই সব ষ্টেপ এ অনেক রকম css apply করা যায়
+আর সে ষ্টেপ গুলোই হলো এই -link-visited-hover-active
+
+link কি হয়? 
+
+উত্তরঃ- :link হলো কোনো একটি লিঙ্ক থাকা অবস্থায় কি css apply তা বোঝানো হয় , 
+
+:visited কি হয়? 
+
+উত্তরঃ-  :visited হলো কোনো একটি লিঙ্ক :visited অবস্থা কি css apply বোঝানো হয় , 
+
+:hover কি হয়? 
+
+উত্তরঃ- ::hover হলো কোনো একটি লিঙ্ক হোভার করার পরে কি css apply হবে তা বোঝানো হয়
+
+:active কি হয়? 
+
+:active হলো কোনো একটি লিঙ্ক :active করার পরে কি  css apply হবে তা বোঝানো হয় 
+
+
+

@@ -1,0 +1,20 @@
+Class 9 
+CSS color background border property কি হয়?
+
+এই ক্লাসে color এর বিষয়ে আলোচনা করা হয়েছে, 
+
+কিভাবে একটি লেখার color দেয়া হয় বা background দেয়া হয়? 
+
+উত্তরঃ-   আমরা যেই লেখাটার color দিতে চাই প্রথমে সেই লেখাটা class , বা id , বা eliment 
+এর মাধ্যমে select করবো এর পরে সেকেন্ড ব্রাকেট { }  open close করে 
+তার মধ্যে color বা backround , বা border , অথবা যে কোনো 
+Css দিতে পারি
+যেমন 
+
+.one {
+	Color: red ;
+	Background: green,
+	border: 2px solid blue;
+}
+
+এইভাবে যে কোনো property এখানে apply করা যাবে, 

@@ -1,0 +1,40 @@
+class 18 margin padding কি হয় ? 
+
+আজ আমরা জেনেছি যে একটি element তৈরি করলে 
+browser default ভাবে একটি padding/margin সাথে দিয়ে দেয়
+আর এটি চাইলে আমরা পরিবর্তন করতে পারি, 
+
+margin padding কি হয় ? 
+উত্তরঃ padding হলো একটি element কে তার border এর মধ্যে থেকেই spach বাড়াতে সাহায্য করে 
+আর margin এটি একটি element এর থেকে অন্য একটি element কে দুরত্ব বাড়াতে ব্যাবহার করা হয় 
+আমরা এর আগেই জেনেছি যে একটি element সব সময় চার কোণ বিশিষ্ট হয়ে থাকে 
+top, right, bottom, left
+আর এই চার কোণ দিয়েই কিন্তু padding বা margin দেয়া যায় , ,
+
+যেমন 
+padding: 10px; এভাবে লিখলে একটি element এ সব দিক দিয়েই padding পরবে, 
+কিন্তু আমরা চাইলে প্রত্যেকটা কোণকেই আলাদা আলাদা padding/margin দিতে পারি, 
+যেমনঃ 
+
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+এইভাবে
+
+আবার এটাকে একলাইনেও লেখা যায়, 
+যেমনঃ 
+
+padding: 10px 15px 20px 25px, 
+
+এখানে প্রথমে  top কাজ করবে এর পরে right , এর পরে  bottom এর পরে  left কাজ করবে, 
+এটাকে বলা হয় short hand আর এভাবেও করা যায়, 
+
+
+
+
+
+
+
+
+

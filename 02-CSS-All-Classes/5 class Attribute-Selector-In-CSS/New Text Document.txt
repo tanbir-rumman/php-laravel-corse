@@ -1,0 +1,12 @@
+class 5 attribute selector কি হয়? 
+
+উত্তরঃ- আগে আমরা eliment name, id, এবং class selctor শিখেছিলাম 
+আজ attribute selector এর বিষয় জানবো ,
+attribute selector আগে আমরা  eliment name, id, এবং class selctor দিয়ে 
+eliment selector করতাম আগের সকল silector এর মতই , 
+attribute এটিও একটি  selector , 
+কিভাবে attribute দিয়ে eliment select করতে হয় তা জানলাম
+
+p[class="hello-bangladesh"] {
+    color: green;
+}

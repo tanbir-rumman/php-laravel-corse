@@ -1,0 +1,22 @@
+.para p:nth-child(2) {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+} 
+
+.para p:last-of-type {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}
+
+.one {
+    
+    font-style: italic;
+}
+
+.last p:last-child {
+    color: red;
+}

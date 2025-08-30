@@ -1,0 +1,43 @@
+13 CSS-Selectors-Conflict-Important-Class কি হয় ? 
+
+
+css এ এমন কিছু selector রয়েছে যে তাদের style দেয়ার মধ্যে 
+কিছু selector এর  অগ্রাধিকার অন্য সবার থেকে বেশী রয়েছে 
+কোন selector মান কি রকম বা কোন selector কখন তার মধ্যে থাকা Rules টি apply করবে 
+আজকের ক্লাসে এই সকল selector বিষয়েই কথা বলা হয়েছে , 
+
+এই সকল selector এর বিষয়ে কথা বলার আগে আমাদের জানতে হবে css এ  Conflict কি হয় 
+তাই সবার আগে আমাদের কথা বলতে হবে এই Conflict নিয়ে
+
+Conflict কি হয় ?  
+উত্তরঃ-  বিভিন্য selector দিয়ে css এ বিভিন্ন রকম eliment কে ডিজাইন 
+দেয়ার সময় অনেক সময় দেখা যায় যে একই Rules আমরা দুই রকম selector এ লিখে থাকি , 
+তবে css এ শেখান থেকে কোনটি apply হবে বা কোন selector বেশী প্রাধান্য পাবে সেটিকেই আসলে Conflict বলা হয় , 
+
+
+এখানে অগ্রাধিকার অনুযাই selector গুলো সাজিয়ে দেয়া হলো
+
+1 - !important
+2 - inline css
+3 - #id selector
+4 - pseudo selector
+5 - class / eliment selector
+6 - Global selector 
+
+এই গ্লোবাল selector এর বিষয়ে আমরা এখনো জানিনা এটা নিয়ে পরে আলচনা করা হবে
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

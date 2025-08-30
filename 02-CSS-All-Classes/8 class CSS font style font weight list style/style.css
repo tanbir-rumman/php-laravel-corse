@@ -1,0 +1,12 @@
+.para {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    background: green;
+}
+
+.one {
+    font-style: italic;
+    border: 3px solid red;
+}
+

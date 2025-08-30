@@ -1,0 +1,41 @@
+15 class comment in css universal selector
+
+css এ comment কি হয় ? 
+
+উত্তরঃ  css এ comment খুবি প্রয়জনিয় একটা প্রপার্টি 
+যার মাধ্যমে web page এ থাকা কোনো কিছুকে user এর থেকে hight করে রাখা যায়, 
+
+যেমন আমি একটি paragraph লিখেছি সেটি আমার ক্লায়েন্ট চাইছে না 
+কিন্তু তিনি বলেছেন যে সেটি পরে তার প্রয়জন হতে পারে এখন আমিতো সেই লেখাটি মুছে ফেলতে পারবো না , 
+কিন্তু আমি চাইলে এই comment এর মাধ্যমে লেখাটিকে user থেকে হাইড করে রাখতে পারি,
+আর এই সমস্যা সমাধানের জন্যই এসেছে এই css comment 
+
+
+/* এর মধ্যবর্তি সকল কিছুই এই কমেন্ট এর অন্তরভুক্ত এই কমেন্ট এর মধ্যে থাকা সকল কিছু একজন user দেখবে না */
+
+আবার আমরা যখন css ডিজাইন করি তখন প্রতিটি section কে আলাদা বোঝার জন্যও 
+সেখানেও আমরা এই css comment ব্যাবহার করতে পারি 
+
+/* this is heading area start */
+
+/* this is heading area end */
+
+ * universal selector কি হয় ?
+
+উত্তরঃ universal এই selector এর মাধ্যে অনেক রকম css property ব্যাবহার করা যায়
+ বা আমরা যে সকল property css এ ব্যাবহার করবো সেই সব property বলে দেয়া যায় , 
+তবে বিশেষ করে  font related property গুলো বেশি inheritenc হয় , 
+এখানে যে সকল property আমার css এর সকল জায়গায় inheritenc হতে হবে সেগুলোকে রাখতে পারি 
+যেমন 
+margin 
+padding
+color আরো অনেক কিছু 
+তবে যে সকল property inheritenc এর প্রয়জন নেই কিন্তু সেটা রাখলে inheritenc হবার সম্ভাবনা রয়েছে 
+সেই সকল property না রাখাই ভালো ।
+star * এটি হলো universal selector
+* this is universal property 
+
+
+
+
+

@@ -1,0 +1,10 @@
+
+
+.one h1, .one h2, .one h3, .one p {
+    color: blue;
+}
+
+.three h1, .three h2, .three h3, .three p {
+    color: green;
+}
+

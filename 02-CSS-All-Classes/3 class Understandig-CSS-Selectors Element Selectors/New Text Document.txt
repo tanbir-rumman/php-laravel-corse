@@ -1,0 +1,13 @@
+class 3 css selector কি হয়?
+
+উত্তরঃ- css selector হলো যে কোনো একটি এলিমেন্ট কে ধরে css দেয়াকেই css selector
+
+css selector বিভিন্ন্য রকম হতে পারে 
+যেমন 
+eliment name selector
+id selector
+class selector
+
+বিভিন্ন্য রকমে এটিকে  select করা হতে পারে 
+এর মধ্যে সব চাইতে বেশি ব্যাবহার হয় class selector 
+আর এটির সুবিধা সবচেয়ে বেশি, 

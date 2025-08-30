@@ -1,0 +1,49 @@
+Class 7
+ combine selector list selector decent combine selector  কি হয়? 
+
+combine selector কি হয়?  
+
+উত্তরঃ-   আমরা যখন অনেক গুলো eliment কে এক সাথে designe দিতে চাই 
+আর সেই জন্য যখন অনেক গুলো eliment কে এক সাথে select করি সেটাকেই বলা হয়  combine selector 
+
+
+
+অনেক গুলো eliment কে একসাথে কিভাবে select করতে হয় ? 
+
+উত্তরঃ-  উত্তর আমরা নানা কারনে একই ডিজাইন অনেক গুলো eliment কে দেয়ার জন্য select করে থাকি , আর সেটা এই ভাবে 
+
+যেমনঃ eliment selector =  h1, h2, h3, 
+যেমন class selector  = .one, .two, .three এই ভাবে
+
+ decent combine selector  কি হয়? 
+
+উত্তরঃ-  কনো eliment যখন অন্য একটি eliment এর মধ্যে থাকে তখন তাকে বলা হয় 
+Chiled , আর এই Chiled কে ধরে designe দেয়াকেই বলা হয় decent combine selector 
+এই Chiled কে আমরা এই ভাবে ধরি 
+একটার ভিতরে একটা বোঝাতে সেই eliment এর নাম একটি স্পেস তার পরে ভিতরের eliment এর নাম দিন 
+
+যেমনঃ  
+
+div p {
+	এখানে Css rools লিখতে হবে 
+}
+
+list selector  কি হয়? 
+
+উত্তরঃ-  কোনো একটী list কে  select করতে চাইলে আমাদের আগের সেই desent selector এর মত করে করলেই হবে 
+
+যেমনঃ  
+div ul li {
+	এখানে Css rools লিখতে হবে 
+}
+
+এভাবে লিখলে সবার লাষ্টে যে child থাকবে সেটাকেই select করা হবে
+
+Class এর নাম দিয়ে এভাবেও করা যায় 
+
+যেমনঃ   
+div.one ul li {
+	এখানে Css rools লিখতে হবে
+}
+
+এভাবে লিখলেও হিসাব সেম হবে
