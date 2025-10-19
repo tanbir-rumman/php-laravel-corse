@@ -1,0 +1,146 @@
+body {
+    font-family: sans-serif;
+
+
+}
+
+.container {
+    width: 900px;
+    border: 5px solid #0000ffdb;
+    padding: 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.product-container .product .heading {
+    text-align: center;
+    text-transform: uppercase;
+    background: #004280;
+    margin-bottom: 20px;
+    
+}
+
+.product-container .product .heading h1 {
+    padding: 15px;
+    color: aquamarine;
+}
+
+
+.product-container .product .product-iamge img {
+    width: 300px;
+    height: auto;
+
+}
+
+.product-container .product .product-price {
+    font-size: 1.2rem;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-block;
+    color: aquamarine;
+    background: #004280;
+}
+
+
+.product-container .product-ifo .product-heading {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+
+.product-container .product .product-ifo ul {
+    list-style-type: circle;
+    width: 300px;
+}
+
+.product-container .product .product-ifo ul li {
+    margin-bottom: 8px;
+
+}
+
+.product-container .product .product-ifo ul li a {
+    color: #000d80;
+    font-weight: bold;
+}
+
+.product-container .product .product-ifo ul li:last-child {
+    margin-bottom: 0;
+}
+
+
+.product .product-ifo .shiping-deteils {
+    color: aquamarine;
+    background: #004280;
+    
+    
+}
+
+.product .product-ifo .shiping-deteils p {
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+.product-container .by a {
+    background: #004280;;
+    text-decoration: none;
+    padding: 10px;
+    color: #8c7fff;
+    transition: 0.1s;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+
+.product-container .by a:link {
+    color: maroon;
+}
+
+.product-container .by a:visited {
+    background: #004280;
+
+}
+
+.product-container .by a:hover {
+    background: skyblue;
+    color: #004280;
+    text-decoration: underline;
+}
+
+.product-container .by a:active {
+    color: #00a2ff;
+    background: black;
+}
+
+
+section .go-to-top {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    
+}
+
+section .go-to-top button {
+    padding: 10px;
+    background: skyblue;;
+}
+
+section .go-to-top a {
+    text-decoration: none;
+    color: #004280;
+    font-weight: 600;
+}
+
+section .go-to-top button:hover {
+    background: #004280;
+    color: skyblue;
+}
+
+section .go-to-top button a:visited {
+    color: red;
+   
+
+}
