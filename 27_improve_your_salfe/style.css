@@ -1,0 +1,177 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 900px;
+    border: 5px solid #0000ffdb;
+    padding: 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.product-container .product .heading {
+    text-align: center;
+    text-transform: uppercase;
+    background: #004280;
+    margin-bottom: 20px;
+    
+}
+
+.product-container .product .heading h1 {
+    padding: 15px;
+    color: aquamarine;
+}
+
+.container .product-container .nav-links {
+    text-align: center;
+    text-transform: uppercase;
+    background: maroon;
+    margin: 10px 0px;
+    padding: 10px;
+    
+}
+
+.container .product-container .nav-links a{
+    color: aquamarine;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.product-container .product .product-iamge img {
+    width: 200px;
+    height: auto;
+
+}
+
+.product-container .product .product-price {
+    font-size: 1.2rem;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-block;
+    color: aquamarine;
+    background: #004280;
+}
+
+
+.product-container .product-ifo .product-heading {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+
+.product-container .product-ifo .product-heading::first-letter {
+    font-size: 30px;
+    color: red;
+}
+
+.product-container .product-ifo .para::first-line{
+    background-color: yellow;
+}
+
+.product-container .product .product-ifo ul {
+    list-style-type: circle;
+    width: 300px;
+    background: #004280;
+    
+}
+
+.product-container .product .product-ifo ul li {
+    margin-bottom: 8px;
+    
+}
+
+.product-container .product .product-ifo ul li a {
+   color: aquamarine;
+    font-weight: bold;
+}
+
+.product-container .product .product-ifo ul li:last-child {
+    margin-bottom: 0;
+}
+
+
+.product .product-ifo .shiping-deteils {
+    color: aquamarine;
+    background: #004280;
+    position: relative;
+    font-size: 20px;
+}
+
+.product .product-ifo .shiping-deteils::after {
+    content: 'Sale';
+    background-color: yellow;
+    position: absolute;
+    right: -5px;
+    top: -15px;
+    padding: 10px;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.product .product-ifo .shiping-deteils p {
+    padding: 20px;
+    font-weight: bold;
+
+}
+
+.product-container .by a {
+    background: skyblue;
+    text-decoration: none;
+    padding: 10px;
+    color: #8c7fff;
+    transition: 0.1s;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.product-container .by a:link {
+    color: #004280;
+}
+
+.product-container .by a:visited {
+    background: #004280;
+
+}
+
+.product-container .by a:hover {
+    background:  #004280;
+    color: skyblue;
+    text-decoration: underline;
+}
+
+.product-container .by a:active {
+    color: skyblue;
+    background: black;
+}
+
+
+section .go-to-top {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    
+}
+
+section .go-to-top button {
+    padding: 10px;
+    background: skyblue;
+}
+
+section .go-to-top a {
+    text-decoration: none;
+    color: #004280;
+    font-weight: 600;
+}
+
+section .go-to-top button:hover {
+    background: #004280;
+    color: skyblue;
+}
+
+section .go-to-top button a:visited {
+    color: red;
+}
